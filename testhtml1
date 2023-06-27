@@ -30,3 +30,84 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Code Shop</title>
+    <style>
+        /* CSS for styling the website */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .code-container {
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+        }
+
+        .code {
+            margin-bottom: 10px;
+        }
+
+        .buy-button {
+            display: block;
+            width: 100px;
+            margin: 0 auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the HTML Code Shop!</h1>
+    
+    <div class="code-container">
+        <div class="code">
+            <h3>HTML Code Pack 1</h3>
+            <pre>
+                &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;My Web Page&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Welcome to my website!&lt;/h1&gt;
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
+            <a class="buy-button" href="https://example.com/purchase">Buy Now</a>
+        </div>
+
+        <div class="code">
+            <h3>HTML Code Pack 2</h3>
+            <pre>
+                &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;My Web Page&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                    &lt;p&gt;This is another paragraph.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
+            <a class="buy-button" href="https://example.com/purchase">Buy Now</a>
+        </div>
+
+        <!-- Add more code packs here -->
+    </div>
+</body>
+</html>
