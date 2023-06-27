@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS to hide the dropdown by default */
+        .dropdown-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="toggleDropdown()">Click me</button>
+    <div class="dropdown-content">
+        <ul>
+            <li>Test1</li>
+            <li>Test2</li>
+            <li>Test3</li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.querySelector(".dropdown-content");
+            if (dropdown.style.display === "none") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
